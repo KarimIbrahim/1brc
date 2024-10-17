@@ -16,4 +16,5 @@
 #
 
 JAVA_OPTS=""
-java $JAVA_OPTS --class-path target/average-1.0.0-SNAPSHOT.jar dev.morling.onebrc.CalculateAverage_karimibrahim
+# java $JAVA_OPTS --class-path target/average-1.0.0-SNAPSHOT.jar dev.morling.onebrc.CalculateAverage_karimibrahim
+java $JAVA_OPTS --class-path src/main/kotlin/karim_ibrahim/app/build/libs/app.jar com.karimibrahim.brc.MainKt
